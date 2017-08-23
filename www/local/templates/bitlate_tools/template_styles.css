@@ -1,0 +1,27 @@
+.main-banner{
+	margin-top: -29px
+}
+
+
+.myContent1 .product-grid .item.hover-elements .add2cart{
+    margin-right: 0 !important;
+}
+
+.wrap_section_text{
+    width:100%;
+    float:left;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .header-logo{
+        max-width: 62px !important;
+    }
+    .advanced-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 .625rem 10px !important;
+    }
+}
+
+

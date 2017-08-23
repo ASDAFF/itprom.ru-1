@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* Yellow-theme buttons */
+
+.myBtn, .link-basket:hover, .product-catalog .link-question:hover, #virtual, #virtual2, .add-block, .add-block:before, .sravCount--active, .favCount--active, .basket-count { 
+	background: #a1decb;
+	color: #fff; 
+}
+.link-basket:hover, .product-catalog .link-question:hover { border-color: #a1decb; }
+.myBtn:hover { background: #81c9b1; }
+
+.link-basket:hover, .link-basket2:hover, .product-catalog .link-question:hover { border-color: #a1decb;}
+
+.myBtn:hover, .link-basket2:hover { background: #81c9b1 !important;}
+
+
+.myBtn:active { background: #81c9b1; border-top: 1px solid #80ad9f;}
+.btn-search {
+	background: #a1decb url(../../img/btn-search-sweet.png) 23% 1px no-repeat;
+	color: #fff;
+}
+.btn-search:hover { background-color: #a1decb; 
+	background-position: 23% -30px;
+	height: 29px;
+	padding-top: 3px;
+}
+
+.myChb .checkboxAreaChecked, #virt_checked, .options .checkboxAreaChecked { background-position: -26px 0; }
+
+/* November, 06 */
+.bx_ordercart .bx_sort_container .current {
+	background: #a1decb;
+}
+.bx_ordercart .bx_sort_container a, .bx_ordercart a.plus, .bx_ordercart a.minus {
+	color: #82b3a3;
+	border-color:  #82b3a3;
+}
+.bx_ordercart .bx_sort_container a:hover, .bx_ordercart a.plus:hover, .bx_ordercart a.minus:hover {
+	color: #a1decb;
+	border-color:  #a1decb;
+}
+
+
+
+

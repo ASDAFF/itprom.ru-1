@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+.bnrs50 { width: 100%;
+height: 123px;
+overflow: hidden;
+}
+.bnrs50 .bnr { width: 50%;  display: inline-block; float: left; overflow: hidden; margin: 0; padding: 0; box-sizing: border-box;}
+.bnrs50 .bnr img { height: 123px; } 
+.right-content { width: 75%;
+	float: right;
+	position: relative;
+}
+.gallery-holder {
+	width: 100%;
+	float: right;
+}
+.promo .row { background: #ffffff; }
+.leftmenu { width: 25%;
+	float: left; 
+}
+.leftmenu #nav {
+	height: auto;
+	position: relative;
+}
+.leftmenu #nav > li {
+	width: 100%;
+	float: none;
+}
+
+.leftmenu > #nav > li { 
+	background: none; 
+	text-align: left;
+	text-indent: 30px;
+	border-bottom: 1px solid #bcbcbc;
+	position: static;
+}
+.leftmenu .drop-nav {
+	text-indent: 0; 
+	line-height: normal;
+	overflow: visible;
+}
+
+.leftmenu #nav > li, #nav > li > a { height: 39px; line-height: 42px; padding: 0; }
+.leftmenu .drop-nav { top: 0; left: 315px; }
+
+.leftmenu .visual img { 
+	position: static;
+}
+.leftmenu .col { background: none; }
+.cat-header { 
+	background: #66abd1;
+	height: 59px;
+}
+.cat-header h3 { 
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: 30px;
+}
+.col ul { position: relative; z-index: 20; }
+.icon-catalog { background-position: 0 -120px; margin-left: 20px; margin-top: 10px;}
+.icon-submenu { background-position: 0 -40px; float: right; margin-top: 10px;}
+
+.menupicture img { 
+	position: absolute; 
+	bottom: 0; right: 0; 
+	z-index: 0;
+}
+.bottomright { /* Otstup u izobrazhenia sprava i snizu */
+	bottom: -20px !important;
+	right: -20px !important;
+}
+.onlyright { /* Otstup u izobrazhenia tol'ko sprava */
+	bottom: 0 !important;
+	right: -20px !important;
+
+}
+.onlybottom { /* Otstup u izobrazhenia tolko snizu */
+	bottom: -20px !important;
+	right: 0 !important;
+}

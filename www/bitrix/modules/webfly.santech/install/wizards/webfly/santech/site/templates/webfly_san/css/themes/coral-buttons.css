@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* Yellow-theme buttons */
+
+.myBtn, .link-basket:hover, .product-catalog .link-question:hover, #virtual, #virtual2, .add-block, .add-block:before, .sravCount--active, .favCount--active, .basket-count { 
+	background: #fe6869;
+	color: #fff; 
+}
+.link-basket:hover, .product-catalog .link-question:hover { border-color: #fe6869; }
+.myBtn:hover { background: #ffaaaa; }
+.myBtn:active { background: #ffaaaa; border-top: 1px solid #cda2a2;}
+.btn-search {
+	background: #fe6869 url(../../img/btn-search-white.png) 23% 1px no-repeat;
+	color: #fff;
+}
+.btn-search:hover { background-color: #fe6869; 
+	background-position: 23% -30px;
+	height: 29px;
+	padding-top: 3px;
+}
+
+.myChb .checkboxAreaChecked, #virt_checked, .options .checkboxAreaChecked { background-position: 0 -26px; }
+
+/* November, 06 */
+.bx_ordercart .bx_sort_container .current {
+	background: #fe6869;
+}
+.bx_ordercart .bx_sort_container a {
+	color: #fe6869 !important;
+	border-color:  #fe6869;
+}
+.bx_ordercart .bx_sort_container a:hover {
+	color: #ffaaaa !important;
+	border-color:  #ffaaaa;
+}

@@ -1,0 +1,1 @@
+<img src="<?=$PATH_TO_LOGO?>" alt="#NL_SITE_NAME#" title="#NL_SITE_NAME#" />

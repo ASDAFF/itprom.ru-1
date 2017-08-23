@@ -1,0 +1,177 @@
+/* ѕоследние изменени€ в стил€х типового решени€ */
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.bx_ordercart {
+	padding: 30px;
+}
+.bx_ordercart thead td {
+  font-size: 16px;
+  padding-bottom: 7px;
+}
+.bx_ordercart .bx_sort_container {
+  font-size: 16px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #ccc;
+}
+.bx_ordercart .bx_sort_container a {
+  display: inline-block;
+  background: none;
+  text-decoration: none;
+  margin-right: 20px;
+  border-bottom: 1px dashed #419dd0;
+  transition: color 0.3s;
+  color: #419dd0;
+}
+.bx_ordercart .bx_sort_container a:hover {
+  color: #7ebddf;
+}
+.bx_ordercart .bx_sort_container .current {
+  border: none;
+  background: #419dd0;
+  color: #ffffff !important;
+  padding: 5px 10px;
+}
+.bx_ordercart .flat {
+  display: inline-block;
+}
+.bx_ordercart #basket_items,
+.bx_ordercart #delayed_items {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+.bx_ordercart #basket_items tbody tr:nth-child(odd) td,
+.bx_ordercart #delayed_items tbody tr:nth-child(odd) td {
+  background: #f5f5f5;
+}
+.bx_ordercart #basket_items table td,
+.bx_ordercart #delayed_items table td {
+  background: none !important;
+}
+.bx_ordercart #basket_items input[type="text"],
+.bx_ordercart #delayed_items input[type="text"] {
+  text-align: center;
+	margin-top: 2px;
+}
+.bx_ordercart .bx_ordercart_itemtitle {
+  font-size: 16px;
+  font-weight: normal;
+}
+.bx_ordercart a.plus,
+.bx_ordercart a.minus {
+  width: 22px;
+  height: 22px;
+  background: none;
+  border: 1px solid #419dd0;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  line-height: 21px;
+  text-decoration: none;
+  color: #419dd0;
+  text-align: center;
+  float: right;
+  margin-top: 2px;
+}
+.bx_ordercart a.plus {
+  margin-right: 4px;
+}
+.bx_ordercart a.minus {
+  float: left;
+}
+.bx_ordercart a.plus:before {
+  content: '+';
+  font-size: 20px;
+}
+.bx_ordercart a.minus:before {
+  content: '-';
+  font-size: 20px;
+}
+.bx_ordercart .some-class {
+  display: none;
+}
+.bx_ordercart .old_price {
+  text-decoration: line-through;
+  color: #fe6869;
+}
+.bx_ordercart .discount_val,
+.bx_ordercart .price {
+  text-align: center;
+}
+.bx_ordercart #col_DISCOUNT {
+  text-align: center;
+}
+.bx_ordercart .bx_ordercart_photo_container {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+.bx_ordercart .bx_ordercart_photo {
+  width: 120px;
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bx_ordercart .bx_ordercart_order_pay_right {
+  width: 300px;
+  float: right;
+  margin-top: 20px;
+}
+.bx_ordercart .bx_ordercart_order_sum {
+  width: 100%;
+}
+.bx_ordercart .bx_ordercart_order_sum tr td:last-child {
+  font-weight: bold;
+}
+.bx_ordercart .btn-input {
+  margin: 25px auto;
+  text-align: center;
+  text-decoration: none;
+}
+.bx_ordercart .btn-input:hover {
+  background: #8ece82;
+}
+.bx_ordercart .btn-input:active {
+  background: #7ec76f;
+}
+.bx_ordercart .bx_ordercart_coupon {
+  margin-top: 20px;
+  font-weight: bold;
+  float: left;
+}
+.bx_ordercart .bx_ordercart_order_pay {
+  border-top: 1px solid #dcdcdc;
+}
+.bx_ordercart .control {
+  line-height: 2;
+}
+.bx_ordercart .custom {
+  text-align: center;
+}
+.bx_ordercart #col_QUANTITY {
+  text-align: left;
+  padding-left: 10px;
+}
+.bx_ordercart .itemphoto,
+.bx_ordercart .margin {
+  background: none !important;
+}
+.bx_ordercart .item {
+  padding-left: 20px;
+}
+.bx_ordercart .itemphoto {
+  width: 125px;
+}
+.errortext { 
+	display: block;
+	padding-top: 30px;
+	margin-left: 30px;
+	font-size: 30px;
+	line-height: 36px;
+}
+.toCatalog { margin-top: 20px; margin-left: 30px;}

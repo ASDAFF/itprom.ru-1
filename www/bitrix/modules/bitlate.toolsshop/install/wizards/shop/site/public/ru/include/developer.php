@@ -1,0 +1,1 @@
+Разработано в  <a href="http://bitlate.ru/" title="bitlate.ru">Bitlate</a>

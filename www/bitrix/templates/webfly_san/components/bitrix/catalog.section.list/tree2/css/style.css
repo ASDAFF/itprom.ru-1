@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../font/Ubuntu.eot');
+    src: url('../font/Ubuntu.eot?#iefix') format('embedded-opentype'),
+    url('../font/Ubuntu.woff') format('woff'),
+    url('../font/Ubuntu.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#wrapper {
+    margin: 80px auto;
+    max-width: 1260px;
+}
+
+
+
+/*  Каталог */
+
+.catalog-termo li{
+    height: 375px;
+    width: 20%;
+    float: left;
+    border: 1px solid #e1e1e1;
+	background: #fff;
+}
+
+.catalog-termo li a:hover{
+    text-decoration: none;
+}
+
+.catalog-termo li a p{
+    text-align: center;
+    color: #1277a5;
+    font-size: 20px;
+    line-height: 30px;
+    height: 60px;
+}
+
+.catalog-termo li a span{
+    display: block;
+    height: 65px;
+    text-align: center;
+    color: #1277a5;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.catalog-termo li a img{
+    max-height: 185px;
+    padding-left: 16px;
+    margin-bottom: 10px;
+}
+
+.catalog-termo li:hover .shkaf-div{
+    border: 9px solid #e1e1e1;
+
+}
+
+.shkaf-div{
+    border: 9px solid #fff;
+    height: 373px;
+}
+
+.shkaf-div p{
+    font-size: 12px;
+}
+
+.quest-about{
+    display: block;
+    text-align: center;
+    border-radius: 40px;
+    width: 195px;
+    height: 25px;
+    float: right;
+    background: #f9895d;
+    color: #fff;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 5px 18px 0 0;
+    padding: 0 !important;
+    position: relative;
+}
+
+.discription{
+    display: none;
+    z-index: 99;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0;
+    width: 252px;
+    height: 400px;
+    position: relative;
+    border: 2px solid #0ca3d2;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    left: 228px;
+    bottom: 318px;
+}
+
+.discription p, .discription-two p{
+    color: #000;
+    font-size: 12px;
+}
+
+.discription-two{
+    display: none;
+    z-index: 99;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0;
+    width: 252px;
+    height: 362px;
+    position: relative;
+    border: 2px solid #0ca3d2;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    right: 250px;
+    bottom: 318px;
+}
+
+.discription span{
+    display: block;
+    position: absolute;
+    background: url("../img/about.png") no-repeat;
+    width: 15px;
+    height: 15px;
+    left: -15px;
+    bottom: 54px;
+}
+
+.discription-two span{
+    display: block;
+    position: absolute;
+    background: url("../img/about-right.png") no-repeat;
+    width: 15px;
+    height: 15px;
+    right: -15px;
+    bottom: 17px;
+}
+
+/*  Каталог */

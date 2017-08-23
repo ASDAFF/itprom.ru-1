@@ -1,0 +1,109 @@
+body {
+    font-size: 13px;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    line-height: 1.3em;
+}
+
+.cert_title {
+    font: 22px/26px 'ubuntulight', Arial, Helvetica, sans-serif;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+.cert_title_link {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(239,238,238);
+    position: relative;
+}
+.slideshow {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 100px;
+    margin: 20px auto 0px;
+    //border: 5px solid #999;
+}
+.slides {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.slide {
+    float: left;;
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+}
+.slide img {
+    display: block;
+    height: 250px;
+    align-self: center;
+}
+
+.nav {
+    margin: 10px auto;
+    text-align: center;
+}
+.nav a {
+    display: inline-block;
+    margin: 0;
+    padding: .2em .5em;
+    color: #00A3CB;
+    text-decoration: none;
+
+}
+.nav a:hover {
+    color: #00436B;
+}
+.nav a.active,
+.nav a.active:hover {
+    background-color: #00A3CB;
+    color: white;
+}
+.disabled {
+    color: #f00;
+}
+
+.next,
+.prev
+{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.5em;
+    text-align: center;
+    background: #0B8CBE;
+    color: white;
+    width: 1.5em;
+    height: 1.5em;
+    opacity: 0.5;
+    z-index: 500;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    padding:12px 14px;
+    position: absolute;
+    top: 150px;
+}
+.next:hover,
+.prev:hover
+{
+    background-color:#8387cf;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+

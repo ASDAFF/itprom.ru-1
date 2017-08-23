@@ -1,0 +1,16 @@
+.content-blog{
+    width: 80%;
+    float: left;
+}
+.content-blog .block{
+    width: 60%;
+    float: left;
+    margin: 10px;
+    /* height: 395px; */
+    overflow: hidden;
+}
+.content-blog .block .visual{}
+.content-blog .block .visual a{}
+.content-blog .block .visual a img{}
+.content-blog{}
+.content-blog{}

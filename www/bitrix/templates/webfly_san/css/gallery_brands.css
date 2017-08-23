@@ -1,0 +1,65 @@
+.container_brands {
+    max-width: 1260px;
+    margin: 0 auto;
+    background-color: white;
+}
+.slideshow_brands {
+    overflow: hidden;
+   // padding: 0 00px;
+    margin-bottom: 0px;
+    //border: 1px solid #222;
+}
+.slides_brands {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.slide_brands {
+    float: left;
+    width: auto;
+    height: 100px;
+    padding: 20px;
+}
+
+.slide_brands img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}
+.next_brands,
+.prev_brands
+{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.5em;
+    text-align: center;
+    background: #0B8CBE;
+    color: white;
+    width: 1.5em;
+    height: 1.5em;
+
+    z-index: 500;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    padding:12px 14px;
+    position: absolute;
+
+    top: 30%;
+    opacity: 0.5;
+}
+.next_brands:hover,
+.prev_brands:hover
+{
+    background-color:#8387cf;
+}
+
+.prev_brands {
+    left: 10px;
+}
+
+.next_brands {
+    right: 10px;
+}

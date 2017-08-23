@@ -1,0 +1,46 @@
+<?if (CModule::IncludeModule('bitlate.toolsshop')) {
+    $message = COption::GetOptionString("bitlate.toolsshop", "NL_SERVICE_ORDER_OKKADD_MESS", "", SITE_ID);
+    $email = COption::GetOptionString("bitlate.toolsshop", 'NL_SERVICE_ORDER_EMAIL', '#DEFAULT_EMAIL_FROM#', SITE_ID);
+    $APPLICATION->IncludeComponent(
+        "bitlate:iblock.element.add.form",
+        "",
+        Array(
+            "COMPONENT_TEMPLATE" => ".default",
+            "CUSTOM_TITLE_DATE_ACTIVE_FROM" => "",
+            "CUSTOM_TITLE_DATE_ACTIVE_TO" => "",
+            "CUSTOM_TITLE_DETAIL_PICTURE" => "",
+            "CUSTOM_TITLE_DETAIL_TEXT" => "",
+            "CUSTOM_TITLE_IBLOCK_SECTION" => "",
+            "CUSTOM_TITLE_NAME" => "ФИО",
+            "CUSTOM_TITLE_PREVIEW_PICTURE" => "",
+            "CUSTOM_TITLE_PREVIEW_TEXT" => "Сообщение",
+            "CUSTOM_TITLE_TAGS" => "",
+            "DEFAULT_INPUT_SIZE" => "30",
+            "DETAIL_TEXT_USE_HTML_EDITOR" => "N",
+            "ELEMENT_ASSOC" => "CREATED_BY",
+            "GROUPS" => array("2"),
+            "IBLOCK_ID" => "#NL_SERVICE_ORDER_IBLOCK_ID#",
+            "IBLOCK_TYPE" => "services",
+            "LEVEL_LAST" => "Y",
+            "LIST_URL" => "",
+            "MAX_FILE_SIZE" => "0",
+            "MAX_LEVELS" => "100000",
+            "MAX_USER_ENTRIES" => "100000",
+            "PREVIEW_TEXT_USE_HTML_EDITOR" => "N",
+            "PROPERTY_CODES" => array("NAME", "PROPERTY_PHONE", "PROPERTY_EMAIL", "PREVIEW_TEXT", "PROPERTY_SERVICE"),
+            "PROPERTY_CODES_REQUIRED" => array("NAME", "PROPERTY_PHONE", "PROPERTY_EMAIL", "PREVIEW_TEXT"),
+            "PROPERTY_CODES_HIDDEN" => array("PROPERTY_SERVICE"),
+            "RESIZE_IMAGES" => "N",
+            "SEF_MODE" => "N",
+            "STATUS" => "ANY",
+            "STATUS_NEW" => "N",
+            "FORM_TITLE" => "Заказ услуги",
+            "USER_MESSAGE_ADD" => $message,
+            "USER_MESSAGE_EDIT" => "Успешно сохранено",
+            "USE_CAPTCHA" => "N",
+            "EVENT_NAME" => "NL_SERVICE_ORDER_#SITE_ID#",
+            "EVENT_EMAIL" => $email,
+            "AJAX_URL" => "#SITE_DIR#nl_ajax/service_order.php",
+        )
+    );
+}?>

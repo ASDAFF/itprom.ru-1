@@ -1,0 +1,44 @@
+/*  Термошкаф */
+
+.activ-termo{
+    height: 460px;
+    width: 100%;
+    background: url("img/activ-termoshkaf.jpg");
+    border: 2px solid #419dd0;
+}
+
+.activ-termo ul{
+    list-style: none;
+    margin-top: 60px;
+}
+
+.activ-termo ul li{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 34px;
+
+}
+
+.activ-termo ul li a {
+    color: #fff;
+    text-decoration: underline;
+    text-shadow:4px 4px 5px #000;
+}
+
+.activ-termo ul li a:hover{
+    text-shadow:0 0 20px #fe6869;
+}
+
+.first-equip{
+    display: inline-block;
+    text-align: right;
+    margin-left: 20px;
+}
+
+.second-equip{
+    display: inline-block;
+    float: right;
+    margin-right: 24px;
+}
+
+/*  Термошкаф */

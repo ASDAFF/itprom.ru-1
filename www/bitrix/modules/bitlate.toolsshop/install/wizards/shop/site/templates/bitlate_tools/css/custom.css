@@ -1,0 +1,437 @@
+.colorpicker-saturation {
+    width: 150px;
+    height: 150px;
+    background-image: url("../images/saturation.png");
+    cursor: crosshair;
+    float: left;
+}
+.colorpicker-saturation i {
+    display: block;
+    height: 5px;
+    width: 5px;
+    border: 1px solid #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: -4px 0 0 -4px;
+}
+.colorpicker-saturation i b {
+    display: block;
+    height: 5px;
+    width: 5px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.colorpicker-hue,
+.colorpicker-alpha {
+    width: 20px;
+    height: 150px;
+    float: left;
+    cursor: row-resize;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+.colorpicker-hue i,
+.colorpicker-alpha i {
+    display: block;
+    height: 1px;
+    background: #000;
+    border-top: 1px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: -1px;
+}
+.colorpicker-hue {
+    background-image: url("../images/hue.png");
+}
+.colorpicker-alpha {
+    background-image: url("../images/alpha.png");
+    display: none;
+}
+.colorpicker-saturation,
+.colorpicker-hue,
+.colorpicker-alpha {
+    background-size: contain;
+}
+.colorpicker {
+    position: absolute;
+    padding: 12px;
+    min-width: 130px;
+    margin: 5px 0 0 -5px;
+    border-radius: 2px;
+    z-index: 2500;
+    background-color: #fff;
+}
+.colorpicker:before,
+.colorpicker:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.colorpicker:before {
+    content: '';
+    position: absolute;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #ffffff;
+    top: -4px;
+    left: 8px;
+}
+.colorpicker:after {
+    clear: both;
+}
+.colorpicker div {
+    position: relative;
+}
+.colorpicker.colorpicker-with-alpha {
+    min-width: 140px;
+}
+.colorpicker.colorpicker-with-alpha .colorpicker-alpha {
+    display: block;
+}
+.colorpicker-color {
+    height: 20px;
+    margin-top: 5px;
+    clear: both;
+    background-image: url("../images/alpha.png");
+    background-position: 0 100%;
+}
+.colorpicker-color div {
+    height: 20px;
+}
+.colorpicker-selectors {
+    display: none;
+    height: 10px;
+    margin-top: 5px;
+    clear: both;
+}
+.colorpicker-selectors i {
+    cursor: pointer;
+    float: left;
+    height: 10px;
+    width: 10px;
+}
+.colorpicker-selectors i + i {
+    margin-left: 3px;
+}
+.colorpicker-element .input-group-addon i,
+.colorpicker-element .add-on i {
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.colorpicker.colorpicker-inline {
+    position: relative;
+    display: inline-block;
+    float: none;
+    z-index: auto;
+}
+.colorpicker.colorpicker-horizontal {
+    width: 110px;
+    min-width: 110px;
+    height: auto;
+}
+.colorpicker.colorpicker-horizontal .colorpicker-saturation {
+    margin-bottom: 4px;
+}
+.colorpicker.colorpicker-horizontal .colorpicker-color {
+    width: 100px;
+}
+.colorpicker.colorpicker-horizontal .colorpicker-hue,
+.colorpicker.colorpicker-horizontal .colorpicker-alpha {
+    width: 100px;
+    height: 15px;
+    float: left;
+    cursor: col-resize;
+    margin-left: 0px;
+    margin-bottom: 4px;
+}
+.colorpicker.colorpicker-horizontal .colorpicker-hue i,
+.colorpicker.colorpicker-horizontal .colorpicker-alpha i {
+    display: block;
+    height: 15px;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    border: none;
+    margin-top: 0px;
+}
+.colorpicker.colorpicker-horizontal .colorpicker-hue {
+    background-image: url("../images/hue-horizontal.png");
+}
+.colorpicker.colorpicker-horizontal .colorpicker-alpha {
+    background-image: url("../images/alpha-horizontal.png");
+}
+.colorpicker.colorpicker-hidden {
+    display: none;
+}
+.colorpicker.colorpicker-visible {
+    display: block;
+}
+.colorpicker-inline.colorpicker-visible {
+    display: inline-block;
+}
+.colorpicker-right:before {
+    left: auto;
+    right: 6px;
+}
+.colorpicker-right:after {
+    left: auto;
+    right: 7px;
+}
+.colorpicker-no-arrow:before {
+    border-right: 0;
+    border-left: 0;
+}
+.colorpicker-no-arrow:after {
+    border-right: 0;
+    border-left: 0;
+}
+
+#custom-menu .colorpicker-icon{
+    display: inline-block;
+}
+#custom-menu .colorpicker-icon .icon{
+    width: 100%;
+    height: 100%;
+    fill: #fff;
+    background-color: #2d59ff;
+}
+#custom-menu{
+    position: fixed;
+    top: 60px;
+    left: -250px;
+    z-index: 110;
+    height: 46px;
+    transition: .4s;
+}
+#custom-menu.active{
+    left: 0;
+    height: auto;
+}
+.slideout-open #custom-menu{
+    display: none;
+}
+#custom-menu .header{
+    width: 296px;
+    background-color: #333;
+}
+#custom-menu .header .title{
+    padding: 15px 20px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#custom-menu .header .toggle{
+    position: relative;
+    width: 46px;
+    height: 46px;
+    padding: 15px 12px;
+    outline: 0;
+}
+#custom-menu .header .toggle .line{
+    display: block;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #fff;
+}
+#custom-menu .header .toggle .line:first-child {
+    top: 0;
+    width: 20px;
+    -webkit-transition-property: top,-webkit-transform;
+    transition-property: top,transform;
+}
+#custom-menu .header .toggle .line:last-child {
+    bottom: 0;
+    margin-bottom: 0;
+    width: 14px;
+    -webkit-transition-property: bottom,-webkit-transform;
+    transition-property: bottom,transform;
+}
+#custom-menu .header .toggle .line:first-child,
+#custom-menu .header .toggle .line:last-child {
+    -webkit-transition-duration: .3s,.3s;
+    transition-duration: .3s,.3s;
+    -webkit-transition-delay: .3s,0s;
+    transition-delay: .3s,0s;
+}
+#custom-menu .header .toggle .center-line {
+    -webkit-transition: border 0s .3s;
+    transition: border 0s .3s;
+}
+#custom-menu.active .header .toggle{
+    padding: 15px 13px;
+}
+#custom-menu.active .header .toggle .line:first-child {
+    top: 7px;
+    width: 100%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#custom-menu.active .header .toggle .line.center-line{
+    border-color: transparent;
+}
+#custom-menu.active .header .toggle .line:last-child {
+    bottom: 7px;
+    width: 100%;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+#custom-menu.active .header .toggle .line:first-child,
+#custom-menu.active .header .toggle .line:last-child {
+    -webkit-transition-delay: 0s,.3s;
+    transition-delay: 0s,.3s;
+}
+#custom-menu .body{
+    width: 250px;
+    padding: 25px 20px;
+    background-color: #000;
+}
+#custom-menu legend{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #888;
+}
+#custom-menu .radio-color{
+    margin-right: -20px;
+}
+#custom-menu .radio-color label{
+    position: relative;
+    margin: 0 15px 15px 0;
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+    border-radius: 19px;
+    cursor: pointer;
+}
+#custom-menu .radio-color .checked,
+#custom-menu .radio-color input[type="radio"]:checked + label{
+    border: 2px solid #fff;
+}
+#custom-menu .radio-color .checked:before,
+#custom-menu .radio-color input[type="radio"]:checked + label:before{
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    width: 14px;
+    height: 7px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+}
+#custom-menu .radio-color label span{
+    height: 100%;
+    padding: 0;
+}
+#custom-menu .radio-banner:after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+#custom-menu .radio-banner label{
+    margin: 0;
+    font-size: 12px;
+    line-height: 24px;
+    color: #666;
+}
+#custom-menu .radio-banner label span{
+    display: block;
+}
+#custom-menu .radio-banner label .icon{
+    display: inline-block;
+    font-weight: 700;
+    line-height: 27px;
+    border: 2px solid #666;
+    color: #666;
+}
+#custom-menu .radio-banner label .icon.large{
+    width: 59px;
+}
+#custom-menu .radio-banner label .icon.medium{
+    width: 43px;
+}
+#custom-menu .radio-banner label .icon.small{
+    width: 32px;
+    line-height: 20px;
+}
+#custom-menu .radio-banner input[type="radio"]:checked + label{
+    color: #fff;
+}
+#custom-menu .radio-banner input[type="radio"]:checked + label .icon{
+    border-color: #fff;
+    color: #fff;
+}
+#custom-menu .select-dropdown{
+    margin-bottom: 25px;
+}
+#custom-menu .select-dropdown:last-child{
+    margin-bottom: 0;
+}
+#custom-menu .select-dropdown .jq-selectbox{
+    font-size: 12px;
+}
+#custom-menu .select-dropdown .jq-selectbox__select{
+    line-height: 35px;
+    background: #333;
+    border-radius: 2px;
+}
+#custom-menu .select-dropdown .jq-selectbox__trigger-arrow{
+    top: 12px;
+    right: 12px;
+    width: 7px;
+    height: 7px;
+    border-width: 1px;
+    border-color: #999;
+}
+#custom-menu .select-dropdown .jq-selectbox.opened .jq-selectbox__trigger-arrow{
+    top: 16px;
+}
+#custom-menu .select-dropdown .jq-selectbox__dropdown{
+    margin-top: 10px;
+    padding: 5px 0;
+    border: 0;
+    border-radius: 2px;
+    overflow: visible;
+}
+#custom-menu .select-dropdown .jq-selectbox__dropdown:before{
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 12px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #fff;
+}
+#custom-menu .select-dropdown li{
+    padding: 0 12px;
+    font-size: 12px;
+    line-height: 26px;
+    color: #999;
+}
+#custom-menu .select-dropdown li:hover{
+    color: #666;
+    background-color: inherit;
+}
+#custom-menu .select-dropdown li.sel,
+#custom-menu .select-dropdown li.selected{
+    color: #000;
+    background-color: inherit;
+}
+.tooltip-fixed{
+    position: fixed;
+}

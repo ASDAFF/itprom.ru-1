@@ -1,0 +1,70 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
+
+if(!CModule::IncludeModule("iblock")) return;
+
+$arTypes = Array(
+	Array(
+		"ID" => "content",
+		"SECTIONS" => "N",
+		"IN_RSS" => "N",
+		"SORT" => 150,
+		"LANG" => Array(),
+	),
+	Array(
+		"ID" => "news",
+		"SECTIONS" => "N",
+		"IN_RSS" => "N",
+		"SORT" => 250,
+		"LANG" => Array(),
+	),
+  Array(
+		"ID" => "company",
+		"SECTIONS" => "Y",
+		"IN_RSS" => "N",
+		"SORT" => 350,
+		"LANG" => Array(),
+	),
+  Array(
+		"ID" => "feedback",
+		"SECTIONS" => "N",
+		"IN_RSS" => "N",
+		"SORT" => 450,
+		"LANG" => Array(),
+	),
+  Array(
+		"ID" => "catalog",
+		"SECTIONS" => "Y",
+		"IN_RSS" => "N",
+		"SORT" => 50,
+		"LANG" => Array(),
+	),
+);
+
+$arLanguages = Array();
+$rsLanguage = CLanguage::GetList($by, $order, array());
+while($arLanguage = $rsLanguage->Fetch())
+	$arLanguages[] = $arLanguage["LID"];
+
+$iblockType = new CIBlockType;
+foreach($arTypes as $arType){
+	$dbType = CIBlockType::GetList(Array(),Array("=ID" => $arType["ID"]));
+	if($dbType->Fetch())
+		continue;
+
+	foreach($arLanguages as $languageID)
+	{
+		WizardServices::IncludeServiceLang("type.php", $languageID);
+
+		$code = strtoupper($arType["ID"]);
+		$arType["LANG"][$languageID]["NAME"] = GetMessage($code."_TYPE_NAME");
+		$arType["LANG"][$languageID]["ELEMENT_NAME"] = GetMessage($code."_ELEMENT_NAME");
+
+		if ($arType["SECTIONS"] == "Y")
+			$arType["LANG"][$languageID]["SECTION_NAME"] = GetMessage($code."_SECTION_NAME");
+	}
+
+	if($iblockType->Add($arType)){
+    
+  }
+}
+?>

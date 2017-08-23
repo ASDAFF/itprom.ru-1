@@ -1,0 +1,251 @@
+/* Order styles */
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.order-checkout {
+  padding: 30px;
+}
+.order-checkout h4 {
+  margin-bottom: 10px;
+}
+.section {
+  margin-bottom: 30px;
+}
+.person_type {
+  overflow: auto;
+}
+.person_type input[type="radio"] {
+  display: none;
+}
+.person_type .label {
+  float: left;
+  margin-right: 20px;
+}
+.myLabel {
+  display: inline-block;
+  background: none;
+  text-decoration: none;
+  margin-right: 20px;
+  border-bottom: 1px dashed #419dd0;
+  transition: color 0.3s;
+  color: #419dd0;
+	padding-top: 5px;
+}
+.myLabel:hover {
+  color: #7ebddf;
+}
+.myLabel.active {
+  border: none;
+  background: #419dd0;
+  color: #ffffff !important;
+  padding: 5px 10px;
+}
+.r1x3 {
+  float: left;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+#sale_order_props {
+  margin-bottom: 30px;
+}
+#sale_order_props input[type="text"],
+#sale_order_props textarea {
+  padding-left: 4px;
+}
+#sale_order_props .pt8 {
+  width: 130px;
+}
+.delivery {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.delivery .w100 {
+  width: 18%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+  margin-right: 1%;
+  font-size: 13px;
+  line-height: 1.2;
+}
+.delivery .w100 .name {
+  margin-bottom: 0;
+}
+.delivery .bx_logotype {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.delivery .bx_logotype span {
+  width: inherit;
+  height: 70px;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.delivery input[type="radio"] {
+  display: none;
+}
+.delivery .myLabel {
+  border: 3px solid #f5f5f5;
+  color: #000000 !important;
+  padding: 5px 10px;
+}
+.delivery .myLabel.active,
+.delivery .myLabel:hover {
+  background: none;
+  border-color: #419dd0;
+}
+.delivery .bx_result_price {
+  background: #419dd0;
+  color: #ffffff;
+  margin: 5px 0;
+  padding: 3px 3px 2px;
+  display: inline-block;
+}
+.delivery .bx_result_price a {
+  color: #ffffff;
+}
+.payment {
+  font-size: 14px;
+  line-height: 1.2;
+}
+.payment .bx_block {
+  width: 100%;
+  border-bottom: 1px solid #f5f5f5;
+  margin-bottom: 20px;
+}
+.payment .myLabel {
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px 0 !important;
+  border: none;
+  border: 3px solid #f5f5f5;
+  color: #000000 !important;
+}
+.payment .myLabel.active,
+.payment .myLabel:hover {
+  padding: 0;
+  background: none;
+  border-color: #419dd0;
+}
+.payment input[type="radio"] {
+  display: none;
+}
+.payment .bx_logotype {
+  width: 140px;
+  height: 70px;
+  float: left;
+  margin-right: 20px;
+}
+.payment .bx_logotype span {
+  display: block;
+  width: 140px;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bx_ordercart_order_table_container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+.bx_ordercart_order_table_container table tbody tr:nth-child(odd) td {
+  background: #f5f5f5;
+}
+.bx_ordercart_order_table_container thead td {
+  font-size: 16px;
+  padding-bottom: 7px;
+}
+.bx_ordercart_order_table_container .custom,
+.bx_ordercart_order_table_container .price {
+  text-align: center;
+  width: 15%;
+}
+.bx_ordercart_order_table_container .flat {
+  display: inline-block;
+}
+.bx_ordercart_order_table_container .bx_ordercart_itemtitle {
+  font-size: 16px;
+  font-weight: normal;
+}
+.bx_ordercart_order_table_container .some-class {
+  display: none;
+}
+.bx_ordercart_order_table_container .old_price {
+  text-decoration: line-through;
+  color: #fe6869;
+}
+.bx_ordercart_order_table_container .discount_val,
+.bx_ordercart_order_table_container .price {
+  text-align: center;
+}
+.bx_ordercart_order_table_container #col_DISCOUNT {
+  text-align: center;
+}
+.bx_ordercart_order_table_container .bx_ordercart_photo_container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.bx_ordercart_order_table_container .bx_ordercart_photo {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bx_ordercart_order_pay_right {
+  width: 300px;
+  float: right;
+  margin-top: 20px;
+}
+.bx_ordercart_order_sum {
+  width: 100%;
+}
+.bx_ordercart_order_sum tr td:last-child {
+  font-weight: bold;
+}
+.btn-input {
+  margin: 25px auto !important;
+  text-align: center;
+}
+.bx_ordercart_coupon {
+  margin-top: 20px;
+  font-weight: bold;
+  float: left;
+}
+.bx_ordercart_order_pay {
+  border-top: 1px solid #dcdcdc;
+}
+.control {
+  line-height: 2;
+}
+.itemphoto {
+  width: 100px;
+  height: 100px;
+}
+.itemphoto,
+.margin {
+  background: none !important;
+}
+.item {
+  padding-left: 20px;
+}
+.comments {
+  width: 400px;
+  margin: 30px auto;
+  text-align: center;
+}
+.comments textarea {
+  width: 400px;
+}
+hr {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: none;
+}

@@ -1,0 +1,94 @@
+.scroll-pane {
+	overflow: auto;
+	position:relative;
+	height: 798px;
+}
+.scroll-pane-type02{
+	height: 958px;
+}
+.jspContainer{
+	overflow: hidden;
+	position: relative;
+}
+.jspPane{
+	left:0 !important;
+	position: absolute;
+	width:100.5% !important;
+}
+.jspVerticalBar{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 5px;
+	height: 100%;
+}
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+.jspCap{
+	opacity:0;
+	height:11px;
+	display:block;
+}
+.scroll-pane-type02 .jspCapTop{
+	height: 12px;
+}
+.scroll-pane-type02 .jspCapBottom{
+	height: 18px;
+}
+.jspArrow{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+.jspVerticalBar .jspArrow{
+	height: 7px;
+	display:none;
+}
+.jspVerticalBar .jspArrow:focus{
+	outline: none;
+}
+.jspVerticalBar {
+	position: absolute;
+	right: 7px;
+	top: 0;
+	width: 7px;
+	height: 100%;
+}
+.jspTrack{
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background: #d7d7d7;
+	position: relative;
+}
+.jspDrag{
+	background: #555;
+	width:7px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+.jspArrow{
+	background: #50506d;  /* фон стрелки */
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+.jspVerticalBar .jspArrow
+{
+	height: 20px;
+}
+.jspArrowUp {
+	display:none;
+}
+.jspArrowDown {
+	display:none;
+	height: 20px;
+}

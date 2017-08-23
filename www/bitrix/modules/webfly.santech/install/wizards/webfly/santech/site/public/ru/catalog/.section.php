@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Сантехника";
+$arDirProperties = Array(
+
+);
+?>

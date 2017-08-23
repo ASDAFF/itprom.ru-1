@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/* coral theme */
+.header-top, .promo .productOfDay, .promo .sale, .sale-header, .promo .row { background: #fd8384; }
+.help-block, .input-block { border-color: #D85355 }
+.input-block { margin-top: -1px; }
+.header-info { background-color: #fff; }
+
+
+.icon20px { background: url(../../img/header-top-icons-coral.png) no-repeat; }
+
+.icon40px { background: url(../../img/icon40-coral.png) no-repeat; }
+
+
+.line-top-colors {
+	background: #fd8384;
+	border-top-color: #FDA6A7;
+	box-shadow: none;
+	position: relative;
+	z-index: 150;
+}
+
+
+.tab-list strong { color: #000; border-color: #000}
+
+
+.arrow-grey { background: #cecece url(../../img/link-top-wb.png) no-repeat; }
+
+.link-top { background: #fd8384 url(../../img/link-top-wb.png) no-repeat; }
+
+.link-top:hover { background-color: #FC6264; }
+
+.block-feedback, .info li { border-color: #ccc; }
+
+.basket-footer .text { color: #000; }
+.basket-footer .basket-count { color: #ffffff; }
+
+.tab-list { background: #f3f3f3; }
+.top-nav li a:hover { background: #fe6869; color: #fff; }
+
+.block-type02, .block-type05, .container-hold-index {background: #ecdfdf;}
+.brand-detail, .main-frame-type03 {background: url(../../img/bg-main-frame-type03-coral.png) repeat-y;}

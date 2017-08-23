@@ -1,0 +1,122 @@
+.product-catalog03 {
+    margin: 0 0 -1px;
+    /*border-top: 1px solid #d6d6d6;*/
+}
+.product-catalog {
+    overflow: hidden;
+}
+.product-catalog ul {
+    /*border-left: 1px solid #e1e1e1;*/
+}
+.product-catalog ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -1px;
+}
+.product-catalog ul li {
+    position: relative;
+    font-size: 12px;
+    line-height: 17px;
+    width: 33.3%;
+    letter-spacing: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+@media screen and (min-width: 1260px){
+    .product-catalog04 ul li, .product-catalog03 ul li {
+        width: 24%;
+        margin: 5px;
+    }
+}
+
+.product-catalog .hold {
+    padding: 17px 12px 15px 13px;
+    border: 1px solid #000;
+    height: 240px;
+}
+.brand-block {
+    text-align: center;
+}
+
+.product-catalog .visual {
+    position: relative;
+    text-align: center;
+    margin: 0 0 7px;
+    height: 194px;
+}
+.product-catalog .hold a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 200px;
+    min-width: 210px;
+}
+.product-catalog03 .visual {
+    overflow: visible;
+}
+
+.visual img {
+    vertical-align: top;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+.brand-block img {
+    width: auto;
+    height: auto;
+    max-width: 95%;
+}
+.product-catalog li:hover .hold{
+    border: 1px solid #d6d6d6;
+    padding: 17px 12px 15px 13px;
+}
+.myContent {
+    padding: 30px;
+}
+.brand-detail .brand_photo_holder {
+    width: 15%;
+    margin-right: 2%;
+    float: left;
+}
+.brand-detail .brand_photo_holder img {
+    max-width: 100%;
+}
+.brand-detail .brand_info {
+    float: right;
+    width: 83%;
+}
+
+.clearfix {
+    width: 100%;
+    height: 1px;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

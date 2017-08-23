@@ -1,0 +1,14 @@
+<?
+$PERM["upload"]["*"]="X";
+$PERM[".git"]["2"]="D";
+$PERM[".git"]["6"]="X";
+$PERM[".git"]["*"]="D";
+$PERM["testZoom.php"]["*"]="D";
+$PERM["testZoom.php"]["5"]="X";
+$PERM["personal"]["7"]="W";
+$PERM["catalog"]["7"]="W";
+$PERM["news"]["7"]="W";
+$PERM["about"]["7"]="W";
+$PERM["index.php"]["7"]="W";
+$PERM["/"]["*"]="R";
+?>

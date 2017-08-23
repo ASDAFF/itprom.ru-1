@@ -1,0 +1,1 @@
+<img src="/upload/logo.png" alt="Термошкафы ITProm" title="Термошкафы ITProm" />

@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/* Sweet theme */
+
+.header-top, .promo  .productOfDay, .promo .sale, .sale-header, .promo .row  { background: #a1decb; }
+
+.top-nav a:hover { background: #87c4b1;}
+
+.icon20px { background: url(../../img/header-top-icons-sweet.png) no-repeat; }
+
+.icon40px { background: url(../../img/icon40-sweet-new.png) no-repeat; }
+
+.line-top-colors {
+	background: #a1decb;
+	border-top-color: #C4EADE;
+	box-shadow: none;
+	position: relative;
+	z-index: 150;
+}
+
+.myBtn, .basket-count, .add-block, .add-block:before, .btn-show, .btn-basket .add-basket {
+	background: #a1decb;
+	color: #000;
+}
+
+.btn-input:hover, .myBtn:hover, .btn-show:hover, .add-basket:hover, .btn-basket .items-cart { background-color: #87c4b1; }
+
+.arrow-grey { background: #cecece url(../../img/link-top-wb.png) no-repeat; }
+
+.link-top { background: #a1decb url(../../img/link-top-wb.png) no-repeat 0 -41px; }
+
+.link-top:hover { background-color: #87c4b1; }
+
+.link-feedback { border-color: #000; }
+
+.block-feedback, .info li { border-color: #ccc; }
+
+.basket-footer .text { color: #000; }
+
+.promo .price { color: #52A88D; }
+
+/*05 november */
+.block-type02, .block-type05, .container-hold-index { background: #C2DDD4; }
+.brand-detail, .main-frame-type03 {background: url(../../img/bg-main-frame-type03-sweet.png) repeat-y;}
+.top-nav li a:hover { background: #82b3a3 }
+.subscribe-form .btn-input { color: #fff; }

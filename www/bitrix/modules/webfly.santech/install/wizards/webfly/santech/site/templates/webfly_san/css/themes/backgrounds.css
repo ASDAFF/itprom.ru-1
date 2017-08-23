@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* Background themes */
+.binding_light { background: url(../../img/bg/binding_light.png) }
+.cream_pixels { background: url(../../img/bg/cream_pixels.png) }
+.dimension { background: url(../../img/bg/dimension.png) }
+.kindajean { background: url(../../img/bg/kindajean.png) }
+.light_grey { background: url(../../img/bg/light_grey.png) }
+.squared_metal { background: url(../../img/bg/squared_metal.png) }
+.tweed { background: url(../../img/bg/tweed.png) }
+.carbon_fibre { background: url(../../img/bg/carbon_fibre.png) }
+.agsquare { background: url(../../img/bg/agsquare.png) }
+.wild_oliva { background: url(../../img/bg/wild_oliva.png) }
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+.binding_light { background: url(../../img/bg/binding_light_@2X.png) }
+.cream_pixels { background: url(../../img/bg/cream_pixels_@2X.png) }
+.dimension { background: url(../../img/bg/dimension_@2X.png) }
+.kindajean { background: url(../../img/bg/kindajean_@2X.png) }
+.light_grey { background: url(../../img/bg/light_grey_@2X.jpg) }
+.squared_metal { background: url(../../img/bg/squared_metal_@2X.png) }
+.tweed { background: url(../../img/bg/tweed_@2X.png) }
+.carbon_fibre { background: url(../../img/bg/carbon_fibre_@2X.png) }
+.agsquare { background: url(../../img/bg/agsquare_@2X.png) }
+.wild_oliva { background: url(../../img/bg/wild_oliva_@2X.png) }
+}

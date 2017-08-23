@@ -1,0 +1,9 @@
+.error{
+  border: 1px solid red;
+}
+.error-dash{
+  border: 1px dashed red;
+}
+.error-dot{
+  border: 1px dotted red;
+}

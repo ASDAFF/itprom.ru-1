@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* Yellow theme */
+
+.header-top { background: #222; }
+.promo .productOfDay, .promo .sale, .sale-header, .promo .row  { background: #D1C591 }
+
+
+.icon20px { background: url(../../img/header-top-icons-yellow.png) no-repeat; }
+
+.icon40px { background: url(../../img/icon40-by-new.png) no-repeat; }
+
+.line-top-colors {
+	background: #ffe564;
+	border-top-color: #ffff80;
+	box-shadow: 0 1px 5px #E1A100;
+	position: relative;
+	z-index: 150;
+}
+
+.arrow-grey { background: #cecece url(../../img/link-top-wb.png) no-repeat; }
+
+.link-top { background: #ffe564 url(../../img/link-top-wb.png) no-repeat 0 -41px; }
+
+.link-top:hover { background-color: #FFDF40; }
+
+.block-feedback, .info li { border-color: #ccc; }
+
+.basket-footer .text { color: #000; }
+
+
+.tab-list { background: #f3f3f3; }
+.top-nav li a:hover { background: #ffe564; color: #000; }
+
+.block-type02, .block-type05, .container-hold-index {background: #EBE7D6;}
+.brand-detail, .main-frame-type03 {background: url(../../img/bg-main-frame-type03-sunny.png) repeat-y;}

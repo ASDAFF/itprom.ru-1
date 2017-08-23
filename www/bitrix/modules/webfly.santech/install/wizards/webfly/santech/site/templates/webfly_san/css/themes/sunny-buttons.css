@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* Yellow-theme buttons */
+
+.myBtn, .link-basket:hover, .product-catalog .link-question:hover, #virtual, #virtual2, .add-block, .add-block:before, .sravCount--active, .favCount--active, .basket-count { 
+  background: #ffe564;
+  color: #000; 
+}
+.link-basket:hover, .link-basket2:hover, .product-catalog .link-question:hover { border-color: #ffe564;  color: #000;}
+
+.myBtn:hover, .link-basket2:hover { background: #ffeb88 !important; color: #000;}
+
+
+.myBtn:active { background: #ffe989; margin-top: 1px;}
+.btn-search {
+  background: #FFE564 url(../../img/btn-search-black.png) 23% 1px no-repeat;
+  color: #000;
+}
+.btn-search:hover {
+  background-color: #FFEB88; 
+  background-position: 23% -30px;
+  height: 29px;
+  padding-top: 3px;
+}
+
+.myChb .checkboxAreaChecked, #virt_checked, .options .checkboxAreaChecked {
+  background-position: -26px -26px;
+}
+.basket-footer .text {
+  color: #000 !important;
+}
+/* November, 06 */
+.bx_ordercart .bx_sort_container .current {
+  background: #ffe564;
+  color: #000 !important;
+}
+.bx_ordercart .bx_sort_container a, .bx_ordercart a.plus, .bx_ordercart a.minus {
+  color: #000;
+  border-color:  #000;
+}
+.bx_ordercart .bx_sort_container a:hover, .bx_ordercart a.plus:hover, .bx_ordercart a.minus:hover {
+  color: #ffe564;
+  border-color:  #ffe564;
+}

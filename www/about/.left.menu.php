@@ -1,0 +1,102 @@
+<?
+$aMenuLinks = Array(
+    Array(
+        "Гарантия",
+        "/about/garantiya/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Возврат и обмен",
+        "/about/vozvrat_i_obmen/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Бренды",
+        "/brands/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Доставка",
+        "/about/dostavka/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Сертификаты",
+        "/about/sertifikaty/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Галерея работ",
+        "/about/gallery/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Сотрудники",
+        "/about/staff/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "О компании",
+        "/about/o-kompanii/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Контакты",
+        "/about/contacts/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Партнеры",
+        "/about/partners/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Отзывы",
+        "/about/reviews/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Как заказать",
+        "/about/kak-zakazat/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Как оплатить",
+        "/about/kak-oplatit/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Реквизиты",
+        "/about/rekvizity/",
+        Array(),
+        Array(),
+        ""
+    )
+);
+?>

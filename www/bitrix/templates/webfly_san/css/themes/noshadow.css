@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.nav-wrapper:before, .nav-wrapper:after, 
+.drop-nav-hold, .search-form, 
+.information-block, .drop-nav .shadow,
+.tab-shadow { 
+	background-image: none;
+}
+
+#header, .footer-row {
+	box-shadow: none;
+}
